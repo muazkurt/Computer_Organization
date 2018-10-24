@@ -15,6 +15,8 @@ main:
 	add	$a1, $zero, $s1
 	addi	$a2, $zero, 256
 	syscall
+	addi	$a1 $a1 $v0
+	sb	$zero 0($a1)
 	#close file
 	add	$a0, $zero, $s0
 	addi	$v0, $zero, 16
@@ -30,7 +32,19 @@ main:
 
 
 check:
-	beq	$v0, $zero, loopexit
+	while(*a != 0)
+		if(*a >= 0 &&  *a <= '9')
+			write content
+		else
+			write content
+		++a.
+		
+	sw	$s0 0($sp)
+	add	$s0 $a0 $zero
+	add	$t0 $a0 $zero
+sub_routine:	
+	lb	$t1 0($t0)
+	beq	$t1, $zero, loopexit
 	
 	addi	$v0 $zero 11
 	lb	$a0 0($a1)
