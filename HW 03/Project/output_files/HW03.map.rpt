@@ -1,0 +1,489 @@
+Analysis & Synthesis report for HW03
+Sat Mar 09 23:20:55 2019
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Port Connectivity Checks: "ALU:operation|right_shift:lsr"
+ 10. Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_sixteen_shift:rss|muxII:mostsb"
+ 11. Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_eight_shift:res|muxII:mostsb"
+ 12. Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_four_shift:rfs|muxII:mostsb"
+ 13. Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_two_shift:rts|muxII:mostsb"
+ 14. Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_one_shift:ros|muxII:mostsb"
+ 15. Port Connectivity Checks: "ALU:operation|right_shift:rsr"
+ 16. Port Connectivity Checks: "ALU:operation|adder:add_res"
+ 17. Elapsed Time Per Partition
+ 18. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                    ;
++------------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sat Mar 09 23:20:55 2019      ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                      ; HW03                                       ;
+; Top-level Entity Name              ; alu32                                      ;
+; Family                             ; Cyclone III                                ;
+; Total logic elements               ; 0                                          ;
+;     Total combinational functions  ; 0                                          ;
+;     Dedicated logic registers      ; 0                                          ;
+; Total registers                    ; 0                                          ;
+; Total pins                         ; 33                                         ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0                                          ;
+; Embedded Multiplier 9-bit elements ; 0                                          ;
+; Total PLLs                         ; 0                                          ;
++------------------------------------+--------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP3C16F484C6       ;                    ;
+; Top-level entity name                                                      ; alu32              ; HW03               ;
+; Family name                                                                ; Cyclone III        ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                          ;
++--------------------------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                 ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                                            ; Library ;
++--------------------------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------------------------------+---------+
+; modules/alu32.v                                  ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/alu32.v                                  ;         ;
+; modules/sub_modules/alu32/ALU_SELECT.v           ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/alu32/ALU_SELECT.v           ;         ;
+; modules/control_unit.v                           ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/control_unit.v                           ;         ;
+; modules/ALU.v                                    ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/ALU.v                                    ;         ;
+; modules/sub_modules/add/full_adder.v             ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/add/full_adder.v             ;         ;
+; modules/sub_modules/add/adder.v                  ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/add/adder.v                  ;         ;
+; modules/sub_modules/muxes/muxVIII.v              ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/muxes/muxVIII.v              ;         ;
+; modules/sub_modules/muxes/muxLXIV_XXXII.v        ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/muxes/muxLXIV_XXXII.v        ;         ;
+; modules/sub_modules/muxes/muxIV.v                ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/muxes/muxIV.v                ;         ;
+; modules/sub_modules/muxes/muxII.v                ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/muxes/muxII.v                ;         ;
+; modules/sub_modules/shifts/right_two_shift.v     ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/shifts/right_two_shift.v     ;         ;
+; modules/sub_modules/shifts/right_sixteen_shift.v ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/shifts/right_sixteen_shift.v ;         ;
+; modules/sub_modules/shifts/right_shift.v         ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/shifts/right_shift.v         ;         ;
+; modules/sub_modules/shifts/right_one_shift.v     ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/shifts/right_one_shift.v     ;         ;
+; modules/sub_modules/shifts/right_four_shift.v    ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/shifts/right_four_shift.v    ;         ;
+; modules/sub_modules/shifts/right_eight_shift.v   ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/shifts/right_eight_shift.v   ;         ;
+; modules/sub_modules/xorxxxii.v                   ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/xorxxxii.v                   ;         ;
+; modules/sub_modules/reverse.v                    ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/reverse.v                    ;         ;
+; modules/sub_modules/notxxxii.v                   ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/notxxxii.v                   ;         ;
+; modules/sub_modules/extend_XXXII.v               ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/extend_XXXII.v               ;         ;
+; modules/sub_modules/extend_XXVII.v               ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/sub_modules/extend_XXVII.v               ;         ;
+; modules/register.v                               ; yes             ; User Verilog HDL File                  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/modules/register.v                               ;         ;
+; memory.mif                                       ; yes             ; Auto-Found Memory Initialization File  ; D:/Projects/CSE331 Computer Organization/HW 03/Project/memory.mif                                       ;         ;
++--------------------------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+;                                             ;       ;
+; Total combinational functions               ; 0     ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 33    ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out node                        ; in[0] ;
+; Maximum fan-out                             ; 1     ;
+; Total fan-out                               ; 33    ;
+; Average fan-out                             ; 0.50  ;
++---------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |alu32                     ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 33   ; 0            ; |alu32              ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "ALU:operation|right_shift:lsr" ;
++-----------------+-------+----------+----------------------+
+; Port            ; Type  ; Severity ; Details              ;
++-----------------+-------+----------+----------------------+
+; aritmetic_logic ; Input ; Info     ; Stuck at VCC         ;
++-----------------+-------+----------+----------------------+
+
+
++------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_sixteen_shift:rss|muxII:mostsb" ;
++------+-------+----------+----------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                              ;
++------+-------+----------+----------------------------------------------------------------------+
+; i    ; Input ; Info     ; Stuck at GND                                                         ;
++------+-------+----------+----------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_eight_shift:res|muxII:mostsb" ;
++------+-------+----------+--------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                            ;
++------+-------+----------+--------------------------------------------------------------------+
+; i    ; Input ; Info     ; Stuck at GND                                                       ;
++------+-------+----------+--------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_four_shift:rfs|muxII:mostsb" ;
++------+-------+----------+-------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                           ;
++------+-------+----------+-------------------------------------------------------------------+
+; i    ; Input ; Info     ; Stuck at GND                                                      ;
++------+-------+----------+-------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_two_shift:rts|muxII:mostsb" ;
++------+-------+----------+------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                          ;
++------+-------+----------+------------------------------------------------------------------+
+; i    ; Input ; Info     ; Stuck at GND                                                     ;
++------+-------+----------+------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:operation|right_shift:rsr|right_one_shift:ros|muxII:mostsb" ;
++------+-------+----------+------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                          ;
++------+-------+----------+------------------------------------------------------------------+
+; i    ; Input ; Info     ; Stuck at GND                                                     ;
++------+-------+----------+------------------------------------------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "ALU:operation|right_shift:rsr" ;
++-----------------+-------+----------+----------------------+
+; Port            ; Type  ; Severity ; Details              ;
++-----------------+-------+----------+----------------------+
+; aritmetic_logic ; Input ; Info     ; Stuck at VCC         ;
++-----------------+-------+----------+----------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:operation|adder:add_res"                                                            ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; overflow ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Sat Mar 09 23:20:48 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off HW03 -c HW03
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file modules/alu32.v
+    Info (12023): Found entity 1: alu32
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/main_tests/alu_testbench.v
+    Info (12023): Found entity 1: ALU_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/adder/fulladder_testbench.v
+    Info (12023): Found entity 1: fulladder_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/adder/adder_testbench.v
+    Info (12023): Found entity 1: adder_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/test_muxes/muxviii_testbench.v
+    Info (12023): Found entity 1: muxVIII_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/test_muxes/muxiv_testbench.v
+    Info (12023): Found entity 1: muxIV_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/test_muxes/muxii_testbench.v
+    Info (12023): Found entity 1: muxII_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/test_shifts/rightshift_test.v
+    Info (12023): Found entity 1: rightShift_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/test_shifts/right_twoshift_testbench.v
+    Info (12023): Found entity 1: right_twoShift_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/test_shifts/right_sixteenshift_testbench.v
+    Info (12023): Found entity 1: right_sixteenShift_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/test_shifts/right_oneshift_testbench.v
+    Info (12023): Found entity 1: right_oneShift_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/test_shifts/right_fourshift_testbench.v
+    Info (12023): Found entity 1: right_fourShift_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/test_shifts/right_eightshift_testbench.v
+    Info (12023): Found entity 1: right_eightShift_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/sub_module_test/aluselect_testbench.v
+    Info (12023): Found entity 1: ALUSELECT_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/alu32/alu_select.v
+    Info (12023): Found entity 1: ALU_SELECT
+Info (12021): Found 1 design units, including 1 entities, in source file modules/control_unit.v
+    Info (12023): Found entity 1: control_unit
+Info (12021): Found 1 design units, including 1 entities, in source file modules/alu.v
+    Info (12023): Found entity 1: ALU
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/add/full_adder.v
+    Info (12023): Found entity 1: full_adder
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/add/adder.v
+    Info (12023): Found entity 1: adder
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/muxes/muxviii.v
+    Info (12023): Found entity 1: muxVIII
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/muxes/muxlxiv_xxxii.v
+    Info (12023): Found entity 1: muxLXIV_XXXII
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/muxes/muxiv.v
+    Info (12023): Found entity 1: muxIV
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/muxes/muxii.v
+    Info (12023): Found entity 1: muxII
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/shifts/right_two_shift.v
+    Info (12023): Found entity 1: right_two_shift
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/shifts/right_sixteen_shift.v
+    Info (12023): Found entity 1: right_sixteen_shift
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/shifts/right_shift.v
+    Info (12023): Found entity 1: right_shift
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/shifts/right_one_shift.v
+    Info (12023): Found entity 1: right_one_shift
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/shifts/right_four_shift.v
+    Info (12023): Found entity 1: right_four_shift
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/shifts/right_eight_shift.v
+    Info (12023): Found entity 1: right_eight_shift
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/xorxxxii.v
+    Info (12023): Found entity 1: xorxxxii
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/reverse.v
+    Info (12023): Found entity 1: reverse
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/orxxvi.v
+    Info (12023): Found entity 1: orxxvi
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/notxxxii.v
+    Info (12023): Found entity 1: notxxxii
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/extend_xxxii.v
+    Info (12023): Found entity 1: extend_XXXII
+Info (12021): Found 1 design units, including 1 entities, in source file modules/sub_modules/extend_xxvii.v
+    Info (12023): Found entity 1: extend_XXVII
+Info (12021): Found 1 design units, including 1 entities, in source file modules/register.v
+    Info (12023): Found entity 1: register
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/regisers_testbench.v
+    Info (12023): Found entity 1: regisers_testbench
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/control_unit_testbench.v
+    Info (12023): Found entity 1: control_unit_testbench
+Warning (10274): Verilog HDL macro warning at mips_body_testbanch.v(2): overriding existing definition for macro "DELAY", which was defined in "modules/TESTS/main_tests/ALU_testbench.v", line 2
+Info (12021): Found 1 design units, including 1 entities, in source file modules/tests/mips_body_testbanch.v
+    Info (12023): Found entity 1: mips_body_testbanch
+Info (12127): Elaborating entity "alu32" for the top level hierarchy
+Info (12128): Elaborating entity "control_unit" for hierarchy "control_unit:cont_bits"
+Info (12128): Elaborating entity "register" for hierarchy "register:parse"
+Warning (10175): Verilog HDL warning at register.v(468): ignoring unsupported system task
+Info (12128): Elaborating entity "extend_XXVII" for hierarchy "extend_XXVII:shifter"
+Info (12128): Elaborating entity "muxLXIV_XXXII" for hierarchy "muxLXIV_XXXII:rs_rt"
+Info (12128): Elaborating entity "muxII" for hierarchy "muxLXIV_XXXII:rs_rt|muxII:o_e"
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:operation"
+Info (12128): Elaborating entity "adder" for hierarchy "ALU:operation|adder:add_res"
+Info (12128): Elaborating entity "xorxxxii" for hierarchy "ALU:operation|adder:add_res|xorxxxii:rcng"
+Info (12128): Elaborating entity "full_adder" for hierarchy "ALU:operation|adder:add_res|full_adder:o"
+Info (12128): Elaborating entity "right_shift" for hierarchy "ALU:operation|right_shift:rsr"
+Info (12128): Elaborating entity "right_one_shift" for hierarchy "ALU:operation|right_shift:rsr|right_one_shift:ros"
+Info (12128): Elaborating entity "right_two_shift" for hierarchy "ALU:operation|right_shift:rsr|right_two_shift:rts"
+Info (12128): Elaborating entity "right_four_shift" for hierarchy "ALU:operation|right_shift:rsr|right_four_shift:rfs"
+Info (12128): Elaborating entity "right_eight_shift" for hierarchy "ALU:operation|right_shift:rsr|right_eight_shift:res"
+Info (12128): Elaborating entity "right_sixteen_shift" for hierarchy "ALU:operation|right_shift:rsr|right_sixteen_shift:rss"
+Info (12128): Elaborating entity "reverse" for hierarchy "ALU:operation|reverse:rvsf"
+Info (12128): Elaborating entity "notxxxii" for hierarchy "ALU:operation|notxxxii:noter"
+Info (12128): Elaborating entity "ALU_SELECT" for hierarchy "ALU:operation|ALU_SELECT:result"
+Info (12128): Elaborating entity "muxVIII" for hierarchy "ALU:operation|ALU_SELECT:result|muxVIII:o"
+Info (12128): Elaborating entity "muxIV" for hierarchy "ALU:operation|ALU_SELECT:result|muxVIII:o|muxIV:iiiiiio"
+Info (12128): Elaborating entity "extend_XXXII" for hierarchy "extend_XXXII:isless"
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 33 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "in[0]"
+    Warning (15610): No output dependent on input pin "in[1]"
+    Warning (15610): No output dependent on input pin "in[2]"
+    Warning (15610): No output dependent on input pin "in[3]"
+    Warning (15610): No output dependent on input pin "in[4]"
+    Warning (15610): No output dependent on input pin "in[5]"
+    Warning (15610): No output dependent on input pin "in[6]"
+    Warning (15610): No output dependent on input pin "in[7]"
+    Warning (15610): No output dependent on input pin "in[8]"
+    Warning (15610): No output dependent on input pin "in[9]"
+    Warning (15610): No output dependent on input pin "in[10]"
+    Warning (15610): No output dependent on input pin "in[11]"
+    Warning (15610): No output dependent on input pin "in[12]"
+    Warning (15610): No output dependent on input pin "in[13]"
+    Warning (15610): No output dependent on input pin "in[14]"
+    Warning (15610): No output dependent on input pin "in[15]"
+    Warning (15610): No output dependent on input pin "in[16]"
+    Warning (15610): No output dependent on input pin "in[17]"
+    Warning (15610): No output dependent on input pin "in[18]"
+    Warning (15610): No output dependent on input pin "in[19]"
+    Warning (15610): No output dependent on input pin "in[20]"
+    Warning (15610): No output dependent on input pin "in[21]"
+    Warning (15610): No output dependent on input pin "in[22]"
+    Warning (15610): No output dependent on input pin "in[23]"
+    Warning (15610): No output dependent on input pin "in[24]"
+    Warning (15610): No output dependent on input pin "in[25]"
+    Warning (15610): No output dependent on input pin "in[26]"
+    Warning (15610): No output dependent on input pin "in[27]"
+    Warning (15610): No output dependent on input pin "in[28]"
+    Warning (15610): No output dependent on input pin "in[29]"
+    Warning (15610): No output dependent on input pin "in[30]"
+    Warning (15610): No output dependent on input pin "in[31]"
+    Warning (15610): No output dependent on input pin "clock"
+Info (21057): Implemented 33 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 33 input pins
+    Info (21059): Implemented 0 output pins
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 37 warnings
+    Info: Peak virtual memory: 4671 megabytes
+    Info: Processing ended: Sat Mar 09 23:20:55 2019
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:04
+
+

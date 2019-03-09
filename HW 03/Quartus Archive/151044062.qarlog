@@ -1,0 +1,64 @@
+Quartus II Archive log --	D:/Projects/CSE331 Computer Organization/teslim/151044062.qarlog
+
+Archive:	D:/Projects/CSE331 Computer Organization/teslim/151044062.qar
+Date:		Mon Dec 10 17:17:24 2018
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+D:/Projects/CSE331 Computer Organization/Project/HW02.qpf
+D:/Projects/CSE331 Computer Organization/Project/HW02.qsf
+D:/Projects/CSE331 Computer Organization/Project/db/HW02.cmp.hdb
+D:/Projects/CSE331 Computer Organization/Project/db/HW02.db_info
+D:/Projects/CSE331 Computer Organization/Project/incremental_db/compiled_partitions/HW02.db_info
+D:/Projects/CSE331 Computer Organization/Project/memory.mif
+D:/Projects/CSE331 Computer Organization/Project/modules/ALU.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/control_unit_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/main_tests/ALU_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/mips_body_testbanch.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/regisers_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/ALUSELECT_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/adder/adder_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/adder/fulladder_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/test_muxes/muxII_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/test_muxes/muxIV_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/test_muxes/muxVIII_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/test_shifts/rightShift_test.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/test_shifts/right_eightShift_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/test_shifts/right_fourShift_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/test_shifts/right_oneShift_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/test_shifts/right_sixteenShift_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/sub_module_test/test_shifts/right_twoShift_testbench.v
+D:/Projects/CSE331 Computer Organization/Project/modules/alu32.v
+D:/Projects/CSE331 Computer Organization/Project/modules/control_unit.v
+D:/Projects/CSE331 Computer Organization/Project/modules/register.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/adder.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/full_adder.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/alu32/ALU_SELECT.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXVII.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXXII.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxII.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxIV.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxLXIV_XXXII.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxVIII.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/notxxxii.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/orxxvi.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/reverse.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_eight_shift.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_four_shift.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_one_shift.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_shift.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_sixteen_shift.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_two_shift.v
+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/xorxxxii.v
+D:/Projects/CSE331 Computer Organization/Project/simulation/modelsim/memory.mif
+d:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 47 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Mar 09 23:17:25 2019
+Source archive file:	D:/Projects/CSE331 Computer Organization/HW 03/151044062/151044062.qar
+Archive was extracted into	D:/Projects/CSE331 Computer Organization/HW 03/Project/
+		 - successfully.
