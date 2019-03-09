@@ -1,0 +1,21 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules/muxes {D:/Projects/CSE331 Computer Organization/HW 02/modules/muxes/muxVIII.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules/muxes {D:/Projects/CSE331 Computer Organization/HW 02/modules/muxes/muxIV.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules/muxes {D:/Projects/CSE331 Computer Organization/HW 02/modules/muxes/muxII.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules {D:/Projects/CSE331 Computer Organization/HW 02/modules/full_adder.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules {D:/Projects/CSE331 Computer Organization/HW 02/modules/adder.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules {D:/Projects/CSE331 Computer Organization/HW 02/modules/ALU.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules/shifts {D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_one_shift.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules/shifts {D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_two_shift.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules/shifts {D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_four_shift.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules/shifts {D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_eight_shift.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules/shifts {D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_sixteen_shift.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules {D:/Projects/CSE331 Computer Organization/HW 02/modules/right_shift.v}
+vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/HW\ 02/modules {D:/Projects/CSE331 Computer Organization/HW 02/modules/ALU_SELECT.v}
+

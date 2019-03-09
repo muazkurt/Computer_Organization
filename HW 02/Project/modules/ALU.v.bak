@@ -1,0 +1,14 @@
+module ALU (out, regi, regii, select);
+	input		[2:0]		select;
+	input		[31:0]	regi, regii;
+	output	[31:0]	out;
+	wire		[31:0]	_and	,
+							_or	,
+							_sum	,
+							_xor	,
+							_sub	,
+							_rsh	,
+							_lsh	,
+							_nor	;	
+	
+endmodule

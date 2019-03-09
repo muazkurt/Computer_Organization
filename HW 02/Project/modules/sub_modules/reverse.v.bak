@@ -1,0 +1,37 @@
+module reverse(out, in);
+	input [31:0] in;
+	output[31:0] out;
+	buf	o_xxxi	(out[0], in[31]);
+	buf	o_xxxi	(out[1], in[30]);
+	buf	o_xxxi	(out[2], in[29]);
+	buf	o_xxxi	(out[3], in[28]);
+	buf	o_xxxi	(out[4], in[27]);
+	buf	o_xxxi	(out[5], in[26]);
+	buf	o_xxxi	(out[6], in[25]);
+	buf	o_xxxi	(out[7], in[24]);
+	buf	o_xxxi	(out[8], in[23]);
+	buf	o_xxxi	(out[9], in[22]);
+	buf	o_xxxi	(out[10], in[21]);
+	buf	o_xxxi	(out[11], in[20]);
+	buf	o_xxxi	(out[12], in[19]);
+	buf	o_xxxi	(out[13], in[18]);
+	buf	o_xxxi	(out[14], in[17]);
+	buf	o_xxxi	(out[15], in[16]);
+	buf	o_xxxi	(out[16], in[15]);
+	buf	o_xxxi	(out[17], in[14]);
+	buf	o_xxxi	(out[18], in[13]);
+	buf	o_xxxi	(out[19], in[12]);
+	buf	o_xxxi	(out[20], in[11]);
+	buf	o_xxxi	(out[21], in[10]);
+	buf	o_xxxi	(out[22], in[9]);
+	buf	o_xxxi	(out[23], in[8]);
+	buf	o_xxxi	(out[24], in[7]);
+	buf	o_xxxi	(out[25], in[6]);
+	buf	o_xxxi	(out[26], in[5]);
+	buf	o_xxxi	(out[27], in[4]);
+	buf	o_xxxi	(out[28], in[3]);
+	buf	o_xxxi	(out[29], in[2]);
+	buf	o_xxxi	(out[30], in[1]);
+	buf	o_xxxi	(out[31], in[0]);
+	
+endmodule

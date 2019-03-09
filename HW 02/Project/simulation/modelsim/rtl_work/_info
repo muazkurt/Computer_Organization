@@ -1,0 +1,510 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Projects\CSE331 Computer Organization\Project\simulation\modelsim
+vadder
+I;M3]YzLIM>kQT`fz[J]N81
+V[4;<9nZ6^YVEnnUdH5QQ`0
+Z1 dD:\Projects\CSE331 Computer Organization\Project\simulation\modelsim
+w1542368918
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/adder.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/adder.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add} -O0
+!i10b 1
+!s100 Mamojb9I1S49aMJZ07kL]1
+!s85 0
+!s108 1544448782.458000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/adder.v|
+!s101 -O0
+vALU
+I]Xz5iYHOS520_CzNN5b8D3
+V>JMG`ICCfDXBRf`:9>N]l1
+R1
+w1544388793
+8D:/Projects/CSE331 Computer Organization/Project/modules/ALU.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/ALU.v
+L0 1
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work {+incdir+D:/Projects/CSE331 Computer Organization/Project/modules} -O0
+n@a@l@u
+!i10b 1
+!s100 NUG7J9HoEVGiL0Q4EN_U72
+!s85 0
+!s108 1544448782.189000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules|D:/Projects/CSE331 Computer Organization/Project/modules/ALU.v|
+!s101 -O0
+valu32
+IczJVNli??SHg4ma4V_hId0
+V;DELW9QFa;M=LXVdfHLYQ1
+R1
+w1544441931
+8D:/Projects/CSE331 Computer Organization/Project/modules/alu32.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/alu32.v
+L0 1
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 @o@bk><P@84VdWFQE[05=2
+!s85 0
+!s108 1544448781.731000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/alu32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules|D:/Projects/CSE331 Computer Organization/Project/modules/alu32.v|
+!s101 -O0
+vALU_SELECT
+In7ZbT`nLeiHHQ3[Uodh542
+VHk1FS2aANdc?cTdz@cINi3
+R1
+w1544388893
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/alu32/ALU_SELECT.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/alu32/ALU_SELECT.v
+L0 1
+R2
+r1
+31
+R3
+n@a@l@u_@s@e@l@e@c@t
+!i10b 1
+!s100 ;5PRX>6BOYW^?kmTWX9cN1
+!s85 0
+!s108 1544448781.921000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/alu32/ALU_SELECT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/alu32|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/alu32/ALU_SELECT.v|
+!s101 -O0
+!s92 -vlog01compat -work work {+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/alu32} -O0
+vcontrol_unit
+IPb1cI>93UVNZ[Pe`B:a[91
+V7OKhA3dJ9kd8Jg<Ph0Tle2
+R1
+w1544378773
+8D:/Projects/CSE331 Computer Organization/Project/modules/control_unit.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/control_unit.v
+L0 1
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 O?S8kj1LI0KBSH8<B_nj10
+!s85 0
+!s108 1544448782.061000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules|D:/Projects/CSE331 Computer Organization/Project/modules/control_unit.v|
+!s101 -O0
+vcontrol_unit_testbench
+IT97]l_A00T=n>WO1]iAVX1
+VzF6QaKMNE51T;TWQSLDWQ0
+R1
+w1544387633
+8D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/control_unit_testbench.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/TESTS/control_unit_testbench.v
+L0 2
+R2
+r1
+31
+Z6 o-work work -O0
+!i10b 1
+!s100 S38CT`YlT=bOaTAaMPGk52
+!s85 0
+!s108 1544448803.069000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/control_unit_testbench.v|
+!s90 -reportprogress|300|-work|work|D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/control_unit_testbench.v|
+!s101 -O0
+vextend_XXVII
+I`JK[NZgW=IbFWzmiUcRH02
+VOlL@Ta>:MgJ32g>bJ[;9m0
+R1
+w1544388619
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXVII.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXVII.v
+L0 1
+R2
+r1
+31
+R3
+Z7 !s92 -vlog01compat -work work {+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules} -O0
+nextend_@x@x@v@i@i
+!i10b 1
+!s100 NW:GRJckWaH253XD_g^oa3
+!s85 0
+!s108 1544448784.243000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXVII.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXVII.v|
+!s101 -O0
+vextend_XXXII
+IAe?9QTj3[[GC_dPJF82R83
+VTo4Gb[e_naZF5TLRcRbZ41
+R1
+w1544364848
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXXII.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXXII.v
+L0 1
+R2
+r1
+31
+R3
+R7
+nextend_@x@x@x@i@i
+!i10b 1
+!s100 MX9aiW9GTU@><U2RQjRi>1
+!s85 0
+!s108 1544448784.122000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXXII.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXXII.v|
+!s101 -O0
+vfull_adder
+I[?n@h[:H6_M8>g@z06IcP0
+Vi4DC3JdLP:LY2Zm96MJ7=0
+R1
+w1544392229
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/full_adder.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/full_adder.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 d[7<Bm?9B2U:hRJl58ZA]1
+!s85 0
+!s108 1544448782.314000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/full_adder.v|
+!s101 -O0
+vmips_body_testbanch
+IzcUb7>Qnz?A4Ub<oNP_T82
+VUINkN139AahoKRUT?4fY>3
+R1
+w1544441907
+8D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/mips_body_testbanch.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/TESTS/mips_body_testbanch.v
+L0 2
+R2
+r1
+31
+R6
+!i10b 1
+!s100 ;^Y9:7b=<HR0^ai<6=DPA0
+!s85 0
+!s108 1544448803.192000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/mips_body_testbanch.v|
+!s90 -reportprogress|300|-work|work|D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/mips_body_testbanch.v|
+!s101 -O0
+vmuxII
+I[OQDQ_cB]R5MDDkNA<S813
+V]5]oDKI1;i9CCFf0^`TMf0
+R1
+w1541941385
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxII.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxII.v
+L0 1
+R2
+r1
+31
+R3
+Z8 !s92 -vlog01compat -work work {+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes} -O0
+nmux@i@i
+!i10b 1
+!s100 FY5Pc1bA@mHgb7<0VI<d]3
+!s85 0
+!s108 1544448782.944000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxII.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxII.v|
+!s101 -O0
+vmuxIV
+Ii=57h8T=c@A3fZ@>?7FZ00
+VfdDnWienT;Qn^CbWOghz02
+R1
+w1542357986
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxIV.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxIV.v
+L0 1
+R2
+r1
+31
+R3
+R8
+nmux@i@v
+!i10b 1
+!s100 ?]VGnKZ3oMzK=[jVS^aQ<0
+!s85 0
+!s108 1544448782.810000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxIV.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxIV.v|
+!s101 -O0
+vmuxLXIV_XXXII
+IzzBU_Uzn;[5^kSG=00gH=1
+VX^`?N9B5<Fz15]5hgf<ZR1
+R1
+w1544363962
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxLXIV_XXXII.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxLXIV_XXXII.v
+L0 1
+R2
+r1
+31
+R3
+R8
+nmux@l@x@i@v_@x@x@x@i@i
+!i10b 1
+!s100 dkCfbiiJZU>=z?I9i@S@Y3
+!s85 0
+!s108 1544448782.702000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxLXIV_XXXII.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxLXIV_XXXII.v|
+!s101 -O0
+vmuxVIII
+IkU:EcUieBGn0I?`575fWD3
+VOlQX2i[dcZk:TUi3@S[<T2
+R1
+w1541941322
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxVIII.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxVIII.v
+L0 1
+R2
+r1
+31
+R3
+nmux@v@i@i@i
+R8
+!i10b 1
+!s100 N>E63Zk5m@4j3iVPO7^eG2
+!s85 0
+!s108 1544448782.579000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxVIII.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxVIII.v|
+!s101 -O0
+vnotxxxii
+I1VOKcoGUNm7@WV@z[YfbB3
+V<EEe^e=3CVeeT50RDcdPN0
+R1
+w1542367151
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/notxxxii.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/notxxxii.v
+L0 1
+R2
+r1
+31
+R3
+R7
+!i10b 1
+!s100 N93LY=bV4BaIfN3?;bcoV1
+!s85 0
+!s108 1544448784.023000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/notxxxii.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/notxxxii.v|
+!s101 -O0
+vregisers_testbench
+!i10b 1
+!s100 WV40j040D2CTlmhOHKn1d0
+I571ROE^HVeDm;lcD2a@LF0
+VK<NLC1IfHjz_ko71SQm^o1
+R1
+w1544438376
+8D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/regisers_testbench.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/TESTS/regisers_testbench.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1544448803.320000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/regisers_testbench.v|
+!s90 -reportprogress|300|-work|work|D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/regisers_testbench.v|
+!s101 -O0
+R6
+vregister
+IGe[zCeh^KUX0?BND[QKgC2
+V2AMelWK;JP]09mTV[>KAa1
+R1
+w1544436921
+8D:/Projects/CSE331 Computer Organization/Project/modules/register.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/register.v
+L0 1
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 =^l]MVgB6T<jgK3f1_h1G1
+!s85 0
+!s108 1544448784.364000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules|D:/Projects/CSE331 Computer Organization/Project/modules/register.v|
+!s101 -O0
+vreverse
+ISd1KBC]GF^4U@^3<nQ:;L3
+VLPlblP8<;CP]I0zgX5WkH1
+R1
+w1542365707
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/reverse.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/reverse.v
+L0 1
+R2
+r1
+31
+R3
+R7
+!i10b 1
+!s100 cBhD:fRHR[X`<XQ;nVDbZ2
+!s85 0
+!s108 1544448783.916000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/reverse.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/reverse.v|
+!s101 -O0
+vright_eight_shift
+ICgGakU4]kJ@1U4Q4P<Y_^1
+VEV7AdN:HXmLPK@YbM29PA3
+R1
+w1542363539
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_eight_shift.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_eight_shift.v
+L0 1
+R2
+r1
+31
+R3
+Z9 !s92 -vlog01compat -work work {+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts} -O0
+!i10b 1
+!s100 jih3PP]a02mbn=KZmAHiH1
+!s85 0
+!s108 1544448783.682000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_eight_shift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_eight_shift.v|
+!s101 -O0
+vright_four_shift
+IVfUV43_R<9B@Ai_oUm5Y11
+VXL2H`zfz5n2^RWdI[bfJj2
+R1
+w1542363510
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_four_shift.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_four_shift.v
+L0 1
+R2
+r1
+31
+R3
+R9
+!i10b 1
+!s100 4lU58VCLaM^j^T9^>=DLM2
+!s85 0
+!s108 1544448783.571000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_four_shift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_four_shift.v|
+!s101 -O0
+vright_one_shift
+IJjicSO9^l:4>WLiYS3ebE3
+VhzAKi>V=mb=E68VN=13080
+R1
+w1542363533
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_one_shift.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_one_shift.v
+L0 1
+R2
+r1
+31
+R3
+R9
+!i10b 1
+!s100 nGZW7PCR3Ia2QZ8ennY^b2
+!s85 0
+!s108 1544448783.453000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_one_shift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_one_shift.v|
+!s101 -O0
+vright_shift
+IBU:DbF:a<^;4@HEl?gz7I2
+Vbj3;oR6ezXDN<6H@eBNR80
+R1
+w1544213417
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_shift.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_shift.v
+L0 1
+R2
+r1
+31
+R3
+R9
+!i10b 1
+!s100 U[jkPU]6zK]nNLU1`A6eA3
+!s85 0
+!s108 1544448783.301000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_shift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_shift.v|
+!s101 -O0
+vright_sixteen_shift
+Io=aTlWVMhPS>_SKHU^49R0
+VUDQ^U3=HCKmGBJDVSUgZ^3
+R1
+w1542363723
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_sixteen_shift.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_sixteen_shift.v
+L0 1
+R2
+r1
+31
+R3
+R9
+!i10b 1
+!s100 4Ai9ToTJlk8c1Qz5G2Z901
+!s85 0
+!s108 1544448783.180000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_sixteen_shift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_sixteen_shift.v|
+!s101 -O0
+vright_two_shift
+I=VSC8LmZ>;_EheQDNVJEB1
+VkhDT<lOk]YnZ3D7TRN;5F2
+R1
+w1542363635
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_two_shift.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_two_shift.v
+L0 1
+R2
+r1
+31
+R3
+R9
+!i10b 1
+!s100 LZez:6VNSee3T:NoCLl2E2
+!s85 0
+!s108 1544448783.070000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_two_shift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_two_shift.v|
+!s101 -O0
+vxorxxxii
+ID5JOY<P5a758fJNFY2Zz;2
+Vn9a[dJCOj35UEO9Zg[k`J1
+R1
+w1544391176
+8D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/xorxxxii.v
+FD:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/xorxxxii.v
+L0 1
+R2
+r1
+31
+R3
+R7
+!i10b 1
+!s100 VdGVJlR3aUGXOCYG=^93R1
+!s85 0
+!s108 1544448783.802000
+!s107 D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/xorxxxii.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules|D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/xorxxxii.v|
+!s101 -O0

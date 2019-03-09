@@ -1,0 +1,10 @@
+module right_shift(result, regi, regii)
+	input		[31:0] regi, regii	;
+	output	[31:0] result			;
+	
+	right_one_shift ros		(result, regi, regii[0]);
+	right_two_shift ros		(result, result, regii[1]);
+	right_three_shift ros	(result, result, regii[2]);
+	right_four_shift ros		(result, result, regii[3]);
+	right_eight_shift ros	(result, result, regii[4]);
+	

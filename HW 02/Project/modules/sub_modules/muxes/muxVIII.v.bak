@@ -1,0 +1,23 @@
+module muxVIII(result	,
+					vii		,
+					vi			,
+					v			,
+					iv			,
+					iii		,
+					ii			,
+					i			,
+					o			,
+					select);
+	input			vii		,
+					vi			,
+					v			,
+					iv			,
+					iii		,
+					ii			,
+					i			,
+					o			;
+	input	[2:0]	select	;
+	output		result	;
+	
+	
+endmodule

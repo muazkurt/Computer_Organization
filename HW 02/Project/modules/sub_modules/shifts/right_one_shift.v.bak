@@ -1,0 +1,38 @@
+module right_shift(result, regi, regii);
+	input 	[31:0] regi, regii;
+	output	[31:0] result		;
+	muxII	o		(result[0], regi[1]	, regii[0] , regii[0]);
+	muxII	i		(result[1], regi[2]	, regii[1] , regii[0]);
+	muxII	ii		(result[2], regi[3]	, regii[2] , regii[0]);
+	muxII	iii	(result[3], regi[4]	, regii[3] , regii[0]);
+	muxII	iv		(result[4], regi[5]	, regii[4] , regii[0]);
+	muxII	v		(result[5], regi[6]	, regii[5] , regii[0]);
+	muxII	vi		(result[6], regi[7]	, regii[6] , regii[0]);
+	muxII	vii	(result[7], regi[8]	, regii[7] , regii[0]);
+	muxII	viii	(result[8], regi[9]	, regii[8] , regii[0]);
+	muxII	ix		(result[9], regi[10]	, regii[9] , regii[0]);
+	muxII	x		(result[10], regi[11], regii[10], regii[0]);
+	muxII	xi		(result[11], regi[12], regii[11], regii[0]);
+	muxII	xii	(result[12], regi[13], regii[12], regii[0]);
+	muxII	xiii	(result[13], regi[14], regii[13], regii[0]);
+	muxII	xiv	(result[14], regi[15], regii[14], regii[0]);
+	muxII	xv		(result[15], regi[16], regii[15], regii[0]);
+	muxII	xvi	(result[16], regi[17], regii[16], regii[0]);
+	muxII	xvii	(result[17], regi[18], regii[17], regii[0]);
+	muxII	xviii	(result[18], regi[19], regii[18], regii[0]);
+	muxII	xix	(result[19], regi[20], regii[19], regii[0]);
+	muxII	xx		(result[20], regi[21], regii[20], regii[0]);
+	muxII	xxi	(result[21], regi[22], regii[21], regii[0]);
+	muxII	xxii	(result[22], regi[23], regii[22], regii[0]);
+	muxII	xxiii	(result[23], regi[24], regii[23], regii[0]);
+	muxII	xxiv	(result[24], regi[25], regii[24], regii[0]);
+	muxII	xxv	(result[25], regi[26], regii[25], regii[0]);
+	muxII	xxvi	(result[26], regi[27], regii[26], regii[0]);
+	muxII	xxvii	(result[27], regi[28], regii[27], regii[0]);
+	muxII	xxviii(result[28], regi[29], regii[28], regii[0]);
+	muxII	xxix	(result[29], regi[30], regii[29], regii[0]);
+	muxII	xxx	(result[30], regi[31], regii[30], regii[0]);
+	muxII	xxxi	(result[31], regi[31], regii[31], regii[0]);
+	
+	
+endmodule

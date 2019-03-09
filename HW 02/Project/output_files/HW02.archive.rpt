@@ -1,0 +1,119 @@
+Archive Project report for HW02
+Mon Dec 10 17:17:25 2018
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Mon Dec 10 17:17:25 2018 ;
+; Revision Name          ; HW02                                  ;
+; Top-level Entity Name  ; alu32                                 ;
+; Family                 ; Cyclone III                           ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/Projects/CSE331 Computer Organization/teslim/151044062.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'HW02.archive.rpt'
+Info (23030): Evaluation of Tcl script d:/altera/13.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4492 megabytes
+    Info: Processing ended: Mon Dec 10 17:17:25 2018
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++--------------------------------------------------------------------------+
+; Files Archived                                                           ;
++--------------------------------------------------------------------------+
+; File Name                                                                ;
++--------------------------------------------------------------------------+
+; d:/altera/13.1/quartus/bin64/assignment_defaults.qdf                     ;
+; db/HW02.cmp.hdb                                                          ;
+; db/HW02.db_info                                                          ;
+; HW02.qpf                                                                 ;
+; HW02.qsf                                                                 ;
+; incremental_db/compiled_partitions/HW02.db_info                          ;
+; memory.mif                                                               ;
+; modules/ALU.v                                                            ;
+; modules/alu32.v                                                          ;
+; modules/control_unit.v                                                   ;
+; modules/register.v                                                       ;
+; modules/sub_modules/add/adder.v                                          ;
+; modules/sub_modules/add/full_adder.v                                     ;
+; modules/sub_modules/alu32/ALU_SELECT.v                                   ;
+; modules/sub_modules/extend_XXVII.v                                       ;
+; modules/sub_modules/extend_XXXII.v                                       ;
+; modules/sub_modules/muxes/muxII.v                                        ;
+; modules/sub_modules/muxes/muxIV.v                                        ;
+; modules/sub_modules/muxes/muxLXIV_XXXII.v                                ;
+; modules/sub_modules/muxes/muxVIII.v                                      ;
+; modules/sub_modules/notxxxii.v                                           ;
+; modules/sub_modules/orxxvi.v                                             ;
+; modules/sub_modules/reverse.v                                            ;
+; modules/sub_modules/shifts/right_eight_shift.v                           ;
+; modules/sub_modules/shifts/right_four_shift.v                            ;
+; modules/sub_modules/shifts/right_one_shift.v                             ;
+; modules/sub_modules/shifts/right_shift.v                                 ;
+; modules/sub_modules/shifts/right_sixteen_shift.v                         ;
+; modules/sub_modules/shifts/right_two_shift.v                             ;
+; modules/sub_modules/xorxxxii.v                                           ;
+; modules/TESTS/control_unit_testbench.v                                   ;
+; modules/TESTS/main_tests/ALU_testbench.v                                 ;
+; modules/TESTS/mips_body_testbanch.v                                      ;
+; modules/TESTS/regisers_testbench.v                                       ;
+; modules/TESTS/sub_module_test/adder/adder_testbench.v                    ;
+; modules/TESTS/sub_module_test/adder/fulladder_testbench.v                ;
+; modules/TESTS/sub_module_test/ALUSELECT_testbench.v                      ;
+; modules/TESTS/sub_module_test/test_muxes/muxII_testbench.v               ;
+; modules/TESTS/sub_module_test/test_muxes/muxIV_testbench.v               ;
+; modules/TESTS/sub_module_test/test_muxes/muxVIII_testbench.v             ;
+; modules/TESTS/sub_module_test/test_shifts/right_eightShift_testbench.v   ;
+; modules/TESTS/sub_module_test/test_shifts/right_fourShift_testbench.v    ;
+; modules/TESTS/sub_module_test/test_shifts/right_oneShift_testbench.v     ;
+; modules/TESTS/sub_module_test/test_shifts/right_sixteenShift_testbench.v ;
+; modules/TESTS/sub_module_test/test_shifts/right_twoShift_testbench.v     ;
+; modules/TESTS/sub_module_test/test_shifts/rightShift_test.v              ;
+; simulation/modelsim/memory.mif                                           ;
++--------------------------------------------------------------------------+
+
+

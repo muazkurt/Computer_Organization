@@ -1,0 +1,25 @@
+module control_unit(select_bits_ALU, function_code);
+
+input [5:0] function_code;
+output [2:0] select_bits_ALU;
+wire	k, l, m, northree, nFi, nFV,
+		resO, resI, resII, resIII, resIV;
+
+and make_k		(function_code[5], function_code[1]);
+nor make_l		(function_code[2], function_code[0]);
+and make_m		(function_code[2], function_code[0]);
+nor ivii			(northree, function_code[5], function_code[1], function_code[2]);
+not v				(nFV, function_code[5]);
+not i				(nFi, function_code[1]);
+and aluiiright	(resO, nFV, l);
+or aluii			(select_bits_ALU[2], k, resO);
+
+and aluileft	(resI, nFi, l);
+and aluiright	(resII, k, m);
+or  alui		(select_bits_ALU[1], resI, resII, northree);
+
+and aluoleft	(resIII, function_code[5], m);
+and aluorigh	(resIV, nFV, function_code[1], l);
+or	 aluo			(select_bits_ALU[0], resIII, resIV);
+
+endmodule

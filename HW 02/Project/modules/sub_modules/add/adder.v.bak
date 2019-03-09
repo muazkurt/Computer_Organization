@@ -1,0 +1,4 @@
+module adder(out[31:0], left[31:0], right[31:0])
+	input left[31:0], right[31:0];
+	output out[31:0];
+	

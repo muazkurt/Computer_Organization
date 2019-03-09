@@ -1,0 +1,15 @@
+module mips_body_testbanch();
+	reg	[32:0]	in;
+	reg				clock;
+	
+	mips_body test(in);
+	
+	initial
+	begin
+	test.parse.clock(clock);
+	
+	
+	end
+
+
+endmodule

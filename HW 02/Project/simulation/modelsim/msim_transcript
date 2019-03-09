@@ -1,0 +1,286 @@
+# Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do HW02_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules {D:/Projects/CSE331 Computer Organization/Project/modules/alu32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu32
+# 
+# Top level modules:
+# 	alu32
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/alu32 {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/alu32/ALU_SELECT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_SELECT
+# 
+# Top level modules:
+# 	ALU_SELECT
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules {D:/Projects/CSE331 Computer Organization/Project/modules/control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules {D:/Projects/CSE331 Computer Organization/Project/modules/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/add {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/full_adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/add {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/add/adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/muxes {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxVIII.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxVIII
+# 
+# Top level modules:
+# 	muxVIII
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/muxes {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxLXIV_XXXII.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxLXIV_XXXII
+# 
+# Top level modules:
+# 	muxLXIV_XXXII
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/muxes {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxIV.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxIV
+# 
+# Top level modules:
+# 	muxIV
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/muxes {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/muxes/muxII.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxII
+# 
+# Top level modules:
+# 	muxII
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/shifts {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_two_shift.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module right_two_shift
+# 
+# Top level modules:
+# 	right_two_shift
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/shifts {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_sixteen_shift.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module right_sixteen_shift
+# 
+# Top level modules:
+# 	right_sixteen_shift
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/shifts {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_shift.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module right_shift
+# 
+# Top level modules:
+# 	right_shift
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/shifts {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_one_shift.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module right_one_shift
+# 
+# Top level modules:
+# 	right_one_shift
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/shifts {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_four_shift.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module right_four_shift
+# 
+# Top level modules:
+# 	right_four_shift
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules/shifts {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/shifts/right_eight_shift.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module right_eight_shift
+# 
+# Top level modules:
+# 	right_eight_shift
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/xorxxxii.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module xorxxxii
+# 
+# Top level modules:
+# 	xorxxxii
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/reverse.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module reverse
+# 
+# Top level modules:
+# 	reverse
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/notxxxii.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module notxxxii
+# 
+# Top level modules:
+# 	notxxxii
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXXII.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module extend_XXXII
+# 
+# Top level modules:
+# 	extend_XXXII
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules/sub_modules {D:/Projects/CSE331 Computer Organization/Project/modules/sub_modules/extend_XXVII.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module extend_XXVII
+# 
+# Top level modules:
+# 	extend_XXVII
+# vlog -vlog01compat -work work +incdir+D:/Projects/CSE331\ Computer\ Organization/Project/modules {D:/Projects/CSE331 Computer Organization/Project/modules/register.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# 
+vlog -reportprogress 300 -work work {D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/control_unit_testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit_testbench
+# 
+# Top level modules:
+# 	control_unit_testbench
+vlog -reportprogress 300 -work work {D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/mips_body_testbanch.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips_body_testbanch
+# 
+# Top level modules:
+# 	mips_body_testbanch
+vlog -reportprogress 300 -work work {D:/Projects/CSE331 Computer Organization/Project/modules/TESTS/regisers_testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regisers_testbench
+# 
+# Top level modules:
+# 	regisers_testbench
+vsim work.control_unit_testbench
+# vsim work.control_unit_testbench 
+# Loading work.control_unit_testbench
+# Loading work.control_unit
+add wave -position insertpoint  \
+sim:/control_unit_testbench/alu_select \
+sim:/control_unit_testbench/fun_code \
+sim:/control_unit_testbench/shift \
+sim:/control_unit_testbench/slt \
+sim:/control_unit_testbench/write_en
+step -current
+# func_code= 100000, alu= 10, shift= 0, slt= 0, write_en= 1
+# func_code= 100001, alu= 10, shift= 0, slt= 0, write_en= 1
+# func_code= 101000, alu= 10, shift= 0, slt= 1, write_en= 0
+# func_code= 0, alu= 110, shift= 1, slt= 0, write_en= 1
+# func_code= 10, alu= 101, shift= 1, slt= 0, write_en= 1
+# func_code= 100100, alu= 0, shift= 0, slt= 0, write_en= 1
+# func_code= 100101, alu= 1, shift= 0, slt= 0, write_en= 1
+# func_code= 101010, alu= 100, shift= 0, slt= 1, write_en= 1
+# func_code= 101011, alu= 100, shift= 0, slt= 1, write_en= 1
+# func_code= 100010, alu= 100, shift= 0, slt= 0, write_en= 1
+# func_code= 100011, alu= 100, shift= 0, slt= 0, write_en= 1
+# func_code= 10001, alu= 0, shift= 1, slt= 0, write_en= 0
+# func_code= 10011, alu= 0, shift= 1, slt= 0, write_en= 0
+vsim work.mips_body_testbanch
+# vsim work.mips_body_testbanch 
+# Loading work.mips_body_testbanch
+# Loading work.alu32
+# Loading work.control_unit
+# Loading work.register
+# Loading work.extend_XXVII
+# Loading work.muxLXIV_XXXII
+# Loading work.muxII
+# Loading work.ALU
+# Loading work.adder
+# Loading work.xorxxxii
+# Loading work.full_adder
+# Loading work.right_shift
+# Loading work.right_one_shift
+# Loading work.right_two_shift
+# Loading work.right_four_shift
+# Loading work.right_eight_shift
+# Loading work.right_sixteen_shift
+# Loading work.reverse
+# Loading work.notxxxii
+# Loading work.ALU_SELECT
+# Loading work.muxVIII
+# Loading work.muxIV
+# Loading work.extend_XXXII
+add wave -position insertpoint  \
+sim:/mips_body_testbanch/clock \
+sim:/mips_body_testbanch/func \
+sim:/mips_body_testbanch/in \
+sim:/mips_body_testbanch/rd \
+sim:/mips_body_testbanch/rs \
+sim:/mips_body_testbanch/rt \
+sim:/mips_body_testbanch/shift \
+sim:/mips_body_testbanch/zero
+step -current
+# clock=0	|	rs=01	|	R[rs]=00000001	|	rt=02	|	R[rt]=00000002	|	rd=03	|	R[rd]=00000003	|	shift=02	|	func=00	|	aluop=6	|	write_en=1	|	result=00000008
+# clock=1	|	rs=01	|	R[rs]=00000001	|	rt=02	|	R[rt]=00000002	|	rd=03	|	R[rd]=00000008	|	shift=02	|	func=00	|	aluop=6	|	write_en=1	|	result=00000008
+# clock=0	|	rs=04	|	R[rs]=00000004	|	rt=05	|	R[rt]=00000005	|	rd=06	|	R[rd]=00000006	|	shift=02	|	func=02	|	aluop=5	|	write_en=1	|	result=00000001
+# clock=1	|	rs=04	|	R[rs]=00000004	|	rt=05	|	R[rt]=00000005	|	rd=06	|	R[rd]=00000001	|	shift=02	|	func=02	|	aluop=5	|	write_en=1	|	result=00000001
+# clock=0	|	rs=07	|	R[rs]=00000007	|	rt=08	|	R[rt]=0000000f	|	rd=09	|	R[rd]=000000f0	|	shift=02	|	func=20	|	aluop=2	|	write_en=1	|	result=00000016
+# clock=1	|	rs=07	|	R[rs]=00000007	|	rt=08	|	R[rt]=0000000f	|	rd=09	|	R[rd]=00000016	|	shift=02	|	func=20	|	aluop=2	|	write_en=1	|	result=00000016
+# clock=0	|	rs=0a	|	R[rs]=00000f00	|	rt=0b	|	R[rt]=00000800	|	rd=0c	|	R[rd]=00000020	|	shift=02	|	func=21	|	aluop=2	|	write_en=1	|	result=00001700
+# clock=1	|	rs=0a	|	R[rs]=00000f00	|	rt=0b	|	R[rt]=00000800	|	rd=0c	|	R[rd]=00001700	|	shift=02	|	func=21	|	aluop=2	|	write_en=1	|	result=00001700
+# clock=0	|	rs=0d	|	R[rs]=00000009	|	rt=0e	|	R[rt]=0000000c	|	rd=0f	|	R[rd]=00000060	|	shift=02	|	func=24	|	aluop=0	|	write_en=1	|	result=00000008
+# clock=1	|	rs=0d	|	R[rs]=00000009	|	rt=0e	|	R[rt]=0000000c	|	rd=0f	|	R[rd]=00000008	|	shift=02	|	func=24	|	aluop=0	|	write_en=1	|	result=00000008
+# clock=0	|	rs=10	|	R[rs]=00000010	|	rt=11	|	R[rt]=00000011	|	rd=12	|	R[rd]=00000012	|	shift=02	|	func=25	|	aluop=1	|	write_en=1	|	result=00000011
+# clock=1	|	rs=10	|	R[rs]=00000010	|	rt=11	|	R[rt]=00000011	|	rd=12	|	R[rd]=00000011	|	shift=02	|	func=25	|	aluop=1	|	write_en=1	|	result=00000011
+# clock=0	|	rs=13	|	R[rs]=00000013	|	rt=14	|	R[rt]=00000014	|	rd=15	|	R[rd]=00000015	|	shift=02	|	func=27	|	aluop=7	|	write_en=1	|	result=ffffffe8
+# clock=1	|	rs=13	|	R[rs]=00000013	|	rt=14	|	R[rt]=00000014	|	rd=15	|	R[rd]=ffffffe8	|	shift=02	|	func=27	|	aluop=7	|	write_en=1	|	result=ffffffe8
+# clock=0	|	rs=16	|	R[rs]=00000016	|	rt=17	|	R[rt]=00000017	|	rd=18	|	R[rd]=00000018	|	shift=02	|	func=2a	|	aluop=4	|	write_en=1	|	result=00000001
+# clock=1	|	rs=16	|	R[rs]=00000016	|	rt=17	|	R[rt]=00000017	|	rd=18	|	R[rd]=00000001	|	shift=02	|	func=2a	|	aluop=4	|	write_en=1	|	result=00000001
+# clock=0	|	rs=19	|	R[rs]=00000019	|	rt=1a	|	R[rt]=0000001a	|	rd=1b	|	R[rd]=0000001b	|	shift=02	|	func=2b	|	aluop=4	|	write_en=1	|	result=00000001
+# clock=1	|	rs=19	|	R[rs]=00000019	|	rt=1a	|	R[rt]=0000001a	|	rd=1b	|	R[rd]=00000001	|	shift=02	|	func=2b	|	aluop=4	|	write_en=1	|	result=00000001
+# clock=0	|	rs=1c	|	R[rs]=0000001c	|	rt=1d	|	R[rt]=0000001d	|	rd=1e	|	R[rd]=0000001e	|	shift=02	|	func=22	|	aluop=4	|	write_en=1	|	result=ffffffff
+# clock=1	|	rs=1c	|	R[rs]=0000001c	|	rt=1d	|	R[rt]=0000001d	|	rd=1e	|	R[rd]=ffffffff	|	shift=02	|	func=22	|	aluop=4	|	write_en=1	|	result=ffffffff
+# clock=0	|	rs=1f	|	R[rs]=0000001f	|	rt=00	|	R[rt]=00000000	|	rd=01	|	R[rd]=00000001	|	shift=02	|	func=23	|	aluop=4	|	write_en=1	|	result=0000001f
+# clock=1	|	rs=1f	|	R[rs]=0000001f	|	rt=00	|	R[rt]=00000000	|	rd=01	|	R[rd]=0000001f	|	shift=02	|	func=23	|	aluop=4	|	write_en=1	|	result=0000001f
+# clock=0	|	rs=16	|	R[rs]=00000016	|	rt=17	|	R[rt]=00000017	|	rd=00	|	R[rd]=00000000	|	shift=02	|	func=2a	|	aluop=4	|	write_en=1	|	result=00000001
+# clock=1	|	rs=16	|	R[rs]=00000016	|	rt=17	|	R[rt]=00000017	|	rd=00	|	R[rd]=00000000	|	shift=02	|	func=2a	|	aluop=4	|	write_en=1	|	result=00000001
+# clock=0	|	rs=19	|	R[rs]=00000019	|	rt=1a	|	R[rt]=0000001a	|	rd=00	|	R[rd]=00000000	|	shift=02	|	func=2b	|	aluop=4	|	write_en=1	|	result=00000001
+# clock=1	|	rs=19	|	R[rs]=00000019	|	rt=1a	|	R[rt]=0000001a	|	rd=00	|	R[rd]=00000000	|	shift=02	|	func=2b	|	aluop=4	|	write_en=1	|	result=00000001
+# clock=0	|	rs=1c	|	R[rs]=0000001c	|	rt=1d	|	R[rt]=0000001d	|	rd=00	|	R[rd]=00000000	|	shift=02	|	func=22	|	aluop=4	|	write_en=1	|	result=ffffffff
+# clock=1	|	rs=1c	|	R[rs]=0000001c	|	rt=1d	|	R[rt]=0000001d	|	rd=00	|	R[rd]=00000000	|	shift=02	|	func=22	|	aluop=4	|	write_en=1	|	result=ffffffff
+# clock=0	|	rs=16	|	R[rs]=00000016	|	rt=17	|	R[rt]=00000017	|	rd=18	|	R[rd]=00000001	|	shift=02	|	func=16	|	aluop=0	|	write_en=0	|	result=00000002
+# clock=1	|	rs=16	|	R[rs]=00000016	|	rt=17	|	R[rt]=00000017	|	rd=18	|	R[rd]=00000001	|	shift=02	|	func=16	|	aluop=0	|	write_en=0	|	result=00000002
+# clock=0	|	rs=19	|	R[rs]=00000019	|	rt=1a	|	R[rt]=0000001a	|	rd=1b	|	R[rd]=00000001	|	shift=02	|	func=3b	|	aluop=4	|	write_en=0	|	result=00000001
+# clock=1	|	rs=19	|	R[rs]=00000019	|	rt=1a	|	R[rt]=0000001a	|	rd=1b	|	R[rd]=00000001	|	shift=02	|	func=3b	|	aluop=4	|	write_en=0	|	result=00000001
+# clock=0	|	rs=1c	|	R[rs]=0000001c	|	rt=1d	|	R[rt]=0000001d	|	rd=1e	|	R[rd]=ffffffff	|	shift=02	|	func=12	|	aluop=5	|	write_en=0	|	result=00000007
+# clock=1	|	rs=1c	|	R[rs]=0000001c	|	rt=1d	|	R[rt]=0000001d	|	rd=1e	|	R[rd]=ffffffff	|	shift=02	|	func=12	|	aluop=5	|	write_en=0	|	result=00000007
+# clock=0	|	rs=1f	|	R[rs]=0000001f	|	rt=00	|	R[rt]=00000000	|	rd=01	|	R[rd]=0000001f	|	shift=02	|	func=2f	|	aluop=7	|	write_en=0	|	result=00000000
+vsim work.regisers_testbench
+# vsim work.regisers_testbench 
+# Loading work.regisers_testbench
+# Loading work.register
+add wave -position insertpoint  \
+sim:/regisers_testbench/clock \
+sim:/regisers_testbench/r1 \
+sim:/regisers_testbench/r2 \
+sim:/regisers_testbench/r3 \
+sim:/regisers_testbench/rs \
+sim:/regisers_testbench/rt \
+sim:/regisers_testbench/write_en
+step -current
+# time = 0, R[1]=11111, R[10]=10, R[1]=11111, write enable = 1
+# time = 1, R[1]=11111, R[10]=10, R[1]=11111, write enable = 1
+# time = 0, R[11]=1000, R[100]=100, R[1]=11111, write enable = 1
+# time = 1, R[11]=1000, R[100]=100, R[1]=1000, write enable = 1
+# time = 0, R[101]=101, R[110]=1, R[0]=0, write enable = 1
+# time = 1, R[101]=101, R[110]=1, R[0]=0, write enable = 1
+# time = 0, R[111]=111, R[1000]=1111, R[101]=101, write enable = 0
+# time = 1, R[111]=111, R[1000]=1111, R[101]=101, write enable = 0
+# time = 0, R[1001]=10110, R[1010]=111100000000, R[1001]=10110, write enable = 0
+# time = 1, R[1001]=10110, R[1010]=111100000000, R[1001]=10110, write enable = 0
+# time = 0, R[1011]=100000000000, R[1100]=1011100000000, R[1001]=10110, write enable = 0
+# time = 1, R[1011]=100000000000, R[1100]=1011100000000, R[1001]=10110, write enable = 0
+# time = 0, R[1101]=1001, R[1110]=1100, R[1001]=10110, write enable = 1
+# time = 1, R[1101]=1001, R[1110]=1100, R[1001]=1001, write enable = 1
+# time = 0, R[1101]=1001, R[1110]=1100, R[1001]=1001, write enable = 1
+step -current

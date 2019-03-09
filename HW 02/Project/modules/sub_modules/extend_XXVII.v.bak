@@ -1,0 +1,37 @@
+module extend_XXVII	(result, item)
+	input		[5:0] 	item;
+	output	[31:0]	result;
+	
+	buf	o		(out[0], item[0]);
+	buf	i		(out[1], item[1]);
+	buf	ii		(out[2], item[2]);
+	buf	iii	(out[3], item[3]);
+	buf	iv		(out[4], item[4]);
+	buf	v		(out[5], item[5]);
+	buf	vi		(out[6], 0'b1);
+	buf	vii	(out[7], 0'b1);
+	buf	viii	(out[8], 0'b1);
+	buf	ix		(out[9], 0'b1);
+	buf	x		(out[10], 0'b1);
+	buf	xi		(out[11], 0'b1);
+	buf	xii	(out[12], 0'b1);
+	buf	xiii	(out[13], 0'b1);
+	buf	xiv	(out[14], 0'b1);
+	buf	xv		(out[15], 0'b1);
+	buf	xvi	(out[16], 0'b1);
+	buf	xvii	(out[17], 0'b1);
+	buf	xviii	(out[18], 0'b1);
+	buf	xix	(out[19], 0'b1);
+	buf	xx		(out[20], 0'b1);
+	buf	xxi	(out[21], 0'b1);
+	buf	xxii	(out[22], 0'b1);
+	buf	xxiii	(out[23], 0'b1);
+	buf	xxiv	(out[24], 0'b1);
+	buf	xxv	(out[25], 0'b1);
+	buf	xxvi	(out[26], 0'b1);
+	buf	xxvii	(out[27], 0'b1);
+	buf	xxviii(out[28], 0'b1);
+	buf	xxix	(out[29], 0'b1);
+	buf	xxx	(out[30], 0'b1);
+	buf	xxxi	(out[31], 0'b1);
+endmodule

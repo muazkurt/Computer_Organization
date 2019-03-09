@@ -1,0 +1,28 @@
+`define DELAY 5
+module regisers_testbench();
+reg				clock;
+reg	[4:0]		r1,
+					r2,
+					r3;
+wire	[31:0]	rs,
+					rt;
+
+register testdata	(rs, rt, r1, r2, r3, rs, 1'b1, clock);
+
+
+initial begin
+	r1 = 5'b00001;
+	r2 = 5'b00002;
+	r3 = 5'b00001;
+	clock = 1'b1;
+	#`DELAY;
+	clock = ~clock;
+end
+ 
+ 
+initial
+begin
+$monitor("time = %1b, R[%1b]=%1b, R[%1b]=%1b, R[%1b]=%1b", clock, r1, rs, r2, rt, r3, rs);
+end
+ 
+endmodule

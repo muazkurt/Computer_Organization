@@ -1,0 +1,47 @@
+Quartus II Archive log --	D:/Projects/CSE331 Computer Organization/151044062.qarlog
+
+Archive:	D:/Projects/CSE331 Computer Organization/151044062.qar
+Date:		Sat Nov 17 00:04:31 2018
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+D:/Projects/CSE331 Computer Organization/HW 02/HW02.qpf
+D:/Projects/CSE331 Computer Organization/HW 02/HW02.qsf
+D:/Projects/CSE331 Computer Organization/HW 02/db/HW02.cmp.hdb
+D:/Projects/CSE331 Computer Organization/HW 02/db/HW02.db_info
+D:/Projects/CSE331 Computer Organization/HW 02/incremental_db/compiled_partitions/HW02.db_info
+D:/Projects/CSE331 Computer Organization/HW 02/modules/ALU.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/ALU_SELECT.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/main_tests/ALUSELECT_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/main_tests/ALU_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/main_tests/adder_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/main_tests/fulladder_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/main_tests/rightShift_test.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/test_muxes/muxII_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/test_muxes/muxIV_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/test_muxes/muxVIII_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/test_shifts/right_eightShift_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/test_shifts/right_fourShift_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/test_shifts/right_oneShift_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/test_shifts/right_sixteenShift_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/TESTS/test_shifts/right_twoShift_testbench.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/adder.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/full_adder.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/muxes/muxII.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/muxes/muxIV.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/muxes/muxVIII.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/notxxxii.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/orxxvi.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/reverse.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/right_shift.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_eight_shift.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_four_shift.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_one_shift.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_sixteen_shift.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/shifts/right_two_shift.v
+D:/Projects/CSE331 Computer Organization/HW 02/modules/xorxxxii.v
+d:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 36 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,26 @@
+`define DELAY 20
+module right_sixteenShift_testbench(); 
+reg [31:0] 	a;
+reg			b;
+wire [31:0] result;
+
+right_sixteen_shift rs (result, a, b);
+
+initial begin
+a = 31'b 11111111 11111111 00000000 00000000; b = 0;
+#`DELAY;
+a = 31'b 11111111 11111111 00000000 00000000; b = 1;
+#`DELAY;
+a = 31'b 00000000 00000000 11111111 11111111; b = 0;
+#`DELAY;
+a = 31'b 00000000 00000000 11111111 11111111; b = 1;
+#`DELAY;
+end
+ 
+ 
+initial
+begin
+$monitor("time = %2d, a =%1b, b=%1b, result=%1b", $time, a, b, result);
+end
+ 
+endmodule

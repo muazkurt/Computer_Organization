@@ -1,0 +1,23 @@
+module full_adder(sum, cout, left, right, cin);
+	input left, right, cin;
+	output sum, cout;
+	
+	wire 	L_a_R	, 	// called X in other wires
+			L_o_R	,	// called Y in other wires
+			X_n	, 	// called Xn in other wires
+			Xn_a_Y,	// called LT in other wires
+			LT_a_C,	// called LTC in other wires
+			LT_o_C,	
+			LTC_n	;
+			
+	and	left_right(L_a_R, left, right);
+	or		left_right(L_o_R, left, right);
+	not	landr(X_n, L_a_R);
+	and	xnay(Xn_a_Y, X_n, L_o_R);
+	and	l_a_cin(LT_a_C, Xn_a_Y, cin);
+	not	noting(LTC_n, LT_a_C)
+	or		l_o_cin(LT_o_C, Xn_a_Y, cin);
+	or		couter(cout, L_a_R, LT_a_C);
+	and	summer(sum, LTC_n, LT_o_C);
+	
+endmodule

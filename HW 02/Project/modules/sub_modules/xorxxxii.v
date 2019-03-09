@@ -1,0 +1,38 @@
+module xorxxxii(out, temp, in);
+	input [31:0] in;
+	input			temp;
+	output[31:0] out;
+	xor	o		(out[0], temp, in[0]);
+	xor	i		(out[1], temp, in[1]);
+	xor	ii		(out[2], temp, in[2]);
+	xor	iii	(out[3], temp, in[3]);
+	xor	iv		(out[4], temp, in[4]);
+	xor	v		(out[5], temp, in[5]);
+	xor	vi		(out[6], temp, in[6]);
+	xor	vii	(out[7], temp, in[7]);
+	xor	viii	(out[8], temp, in[8]);
+	xor	ix		(out[9], temp, in[9]);
+	xor	x		(out[10], temp, in[10]);
+	xor	xi		(out[11], temp, in[11]);
+	xor	xii	(out[12], temp, in[12]);
+	xor	xiii	(out[13], temp, in[13]);
+	xor	xiv	(out[14], temp, in[14]);
+	xor	xv		(out[15], temp, in[15]);
+	xor	xvi	(out[16], temp, in[16]);
+	xor	xvii	(out[17], temp, in[17]);
+	xor	xviii	(out[18], temp, in[18]);
+	xor	xix	(out[19], temp, in[19]);
+	xor	xx		(out[20], temp, in[20]);
+	xor	xxi	(out[21], temp, in[21]);
+	xor	xxii	(out[22], temp, in[22]);
+	xor	xxiii	(out[23], temp, in[23]);
+	xor	xxiv	(out[24], temp, in[24]);
+	xor	xxv	(out[25], temp, in[25]);
+	xor	xxvi	(out[26], temp, in[26]);
+	xor	xxvii	(out[27], temp, in[27]);
+	xor	xxviii(out[28], temp, in[28]);
+	xor	xxix	(out[29], temp, in[29]);
+	xor	xxx	(out[30], temp, in[30]);
+	xor	xxxi	(out[31], temp, in[31]);
+
+endmodule

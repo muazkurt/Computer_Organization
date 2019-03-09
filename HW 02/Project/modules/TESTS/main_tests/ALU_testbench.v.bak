@@ -1,0 +1,91 @@
+`define DELAY 20
+module ALU_testbench();
+reg	[31:0]	left, right;
+reg	[2:0]		select;
+wire	[31:0]	result;
+
+ALU fatb (result, left, right, select);
+
+
+initial begin
+left = 32'b11110000111100001111000011110000;
+right= 32'b11110000111100001111000011110000;
+select = 3'b000;
+#`DELAY;
+select = 3'b001;
+#`DELAY;
+select = 3'b010;
+#`DELAY;
+select = 3'b011;
+#`DELAY;
+select = 3'b100;
+#`DELAY;
+select = 3'b101;
+#`DELAY;
+select = 3'b110;
+#`DELAY;
+select = 3'b111;
+#`DELAY;
+left = 32'b1111000011110000111100001111;
+right= 32'b1111000011110000111100001111;
+select = 3'b000;
+#`DELAY;
+select = 3'b001;
+#`DELAY;
+select = 3'b010;
+#`DELAY;
+select = 3'b011;
+#`DELAY;
+select = 3'b100;
+#`DELAY;
+select = 3'b101;
+#`DELAY;
+select = 3'b110;
+#`DELAY;
+select = 3'b111;
+#`DELAY;
+left = 32'b1111000011110000111100001111;
+right= 32'b11110000111100001111000011110000;
+select = 3'b000;
+#`DELAY;
+select = 3'b001;
+#`DELAY;
+select = 3'b010;
+#`DELAY;
+select = 3'b011;
+#`DELAY;
+select = 3'b100;
+#`DELAY;
+select = 3'b101;
+#`DELAY;
+select = 3'b110;
+#`DELAY;
+select = 3'b111;
+#`DELAY;
+left = 32'b11110000111100001111000011110000;
+right= 32'b1111000011110000111100001111;
+select = 3'b000;
+#`DELAY;
+select = 3'b001;
+#`DELAY;
+select = 3'b010;
+#`DELAY;
+select = 3'b011;
+#`DELAY;
+select = 3'b100;
+#`DELAY;
+select = 3'b101;
+#`DELAY;
+select = 3'b110;
+#`DELAY;
+select = 3'b111;
+#`DELAY;
+end
+ 
+ 
+initial
+begin
+$monitor("time = %2d, select=%1b, result=%1b", $time, select, result);
+end
+ 
+endmodule
