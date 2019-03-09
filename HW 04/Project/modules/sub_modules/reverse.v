@@ -1,0 +1,37 @@
+module reverse(out, in);
+	input [31:0] in;
+	output[31:0] out;
+	buf	o_xxxi		(out[0], in[31]);
+	buf	i_xxx			(out[1], in[30]);
+	buf	ii_xxix		(out[2], in[29]);
+	buf	iii_xxviii	(out[3], in[28]);
+	buf	iv_xxvii		(out[4], in[27]);
+	buf	v_xxvi		(out[5], in[26]);
+	buf	vi_xxv		(out[6], in[25]);
+	buf	vii_xxiv		(out[7], in[24]);
+	buf	viii_xxiii	(out[8], in[23]);
+	buf	ix_xxii		(out[9], in[22]);
+	buf	x_xxi			(out[10], in[21]);
+	buf	xi_xx			(out[11], in[20]);
+	buf	xii_xix		(out[12], in[19]);
+	buf	xiii_xviii	(out[13], in[18]);
+	buf	xiv_xvii		(out[14], in[17]);
+	buf	xv_xvi		(out[15], in[16]);
+	buf	xvi_xv		(out[16], in[15]);
+	buf	xvii_xiv		(out[17], in[14]);
+	buf	xviii_xiii	(out[18], in[13]);
+	buf	xix_xii		(out[19], in[12]);
+	buf	xx_xi			(out[20], in[11]);
+	buf	xxi_x			(out[21], in[10]);
+	buf	xxii_ix		(out[22], in[9]);
+	buf	xxiii_viii	(out[23], in[8]);
+	buf	xxiv_vii		(out[24], in[7]);
+	buf	xxv_vi		(out[25], in[6]);
+	buf	xxvi_v		(out[26], in[5]);
+	buf	xxvii_iv		(out[27], in[4]);
+	buf	xxviii_iii	(out[28], in[3]);
+	buf	xxix_ii		(out[29], in[2]);
+	buf	xxx_i			(out[30], in[1]);
+	buf	xxxi_o		(out[31], in[0]);
+
+endmodule

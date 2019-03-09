@@ -1,0 +1,41 @@
+module extend_XVI(out, in, select);
+	input 				select;
+	input 	[15:0]	in;
+	output 	[31:0]	out;
+	
+	wire 					temp;
+	muxII	chose	(temp, in[15], 1'b0, select);
+	buf	o		(out[0], in[0]);
+	buf	i		(out[1], in[1]);
+	buf	ii		(out[2], in[2]);
+	buf	iii	(out[3], in[3]);
+	buf	iv		(out[4], in[4]);
+	buf	v		(out[5], in[5]);
+	buf	vi		(out[6], in[6]);
+	buf	vii	(out[7], in[7]);
+	buf	viii	(out[8], in[8]);
+	buf	ix		(out[9], in[9]);
+	buf	x		(out[10], in[10]);
+	buf	xi		(out[11], in[11]);
+	buf	xii	(out[12], in[12]);
+	buf	xiii	(out[13], in[13]);
+	buf	xiv	(out[14], in[14]);
+	buf	xv		(out[15], in[15]);
+	buf	xvi	(out[16], temp);
+	buf	xvii	(out[17], temp);
+	buf	xviii	(out[18], temp);
+	buf	xix	(out[19], temp);
+	buf	xx		(out[20], temp);
+	buf	xxi	(out[21], temp);
+	buf	xxii	(out[22], temp);
+	buf	xxiii	(out[23], temp);
+	buf	xxiv	(out[24], temp);
+	buf	xxv	(out[25], temp);
+	buf	xxvi	(out[26], temp);
+	buf	xxvii	(out[27], temp);
+	buf	xxviii(out[28], temp);
+	buf	xxix	(out[29], temp);
+	buf	xxx	(out[30], temp);
+	buf	xxxi	(out[31], temp);
+	
+endmodule

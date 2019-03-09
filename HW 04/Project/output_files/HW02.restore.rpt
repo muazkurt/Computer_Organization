@@ -1,0 +1,130 @@
+Restore Archived Project report for HW02
+Sat Mar 09 23:46:32 2019
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sat Mar 09 23:46:32 2019 ;
+; Revision Name                   ; HW02                                  ;
+; Top-level Entity Name           ; mips32_single_cycle                   ;
+; Family                          ; Cyclone III                           ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'D:/Projects/CSE331 Computer Organization/HW 04/151044062/HW04.qar' into the 'D:\\Projects\\CSE331 Computer Organization\\HW 04\\151044062\\Project/' directory
+Info: Generated report 'HW02.restore.rpt'
+Info (23030): Evaluation of Tcl script d:/altera/13.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4434 megabytes
+    Info: Processing ended: Sat Mar 09 23:46:32 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++--------------------------------------------------------------------------+
+; Files Restored                                                           ;
++--------------------------------------------------------------------------+
+; File Name                                                                ;
++--------------------------------------------------------------------------+
+; HW02.qpf                                                                 ;
+; HW02.qsf                                                                 ;
+; assignment_defaults.qdf                                                  ;
+; db/HW02.cmp.hdb                                                          ;
+; db/HW02.db_info                                                          ;
+; incremental_db/compiled_partitions/HW02.db_info                          ;
+; instrmemory.mif                                                          ;
+; mainmemory.mif                                                           ;
+; memory.mif                                                               ;
+; modules/TESTS/control_unit_testbench.v                                   ;
+; modules/TESTS/main_control_unit_test.v                                   ;
+; modules/TESTS/main_tests/ALU_testbench.v                                 ;
+; modules/TESTS/memaccess_test.v                                           ;
+; modules/TESTS/mips32_single_cycle_test.v                                 ;
+; modules/TESTS/mips_body_testbanch.v                                      ;
+; modules/TESTS/pci_test.v                                                 ;
+; modules/TESTS/regisers_testbench.v                                       ;
+; modules/TESTS/sub_module_test/ALUSELECT_testbench.v                      ;
+; modules/TESTS/sub_module_test/adder/adder_testbench.v                    ;
+; modules/TESTS/sub_module_test/adder/fulladder_testbench.v                ;
+; modules/TESTS/sub_module_test/test_muxes/muxII_testbench.v               ;
+; modules/TESTS/sub_module_test/test_muxes/muxIV_testbench.v               ;
+; modules/TESTS/sub_module_test/test_muxes/muxVIII_testbench.v             ;
+; modules/TESTS/sub_module_test/test_shifts/rightShift_test.v              ;
+; modules/TESTS/sub_module_test/test_shifts/right_eightShift_testbench.v   ;
+; modules/TESTS/sub_module_test/test_shifts/right_fourShift_testbench.v    ;
+; modules/TESTS/sub_module_test/test_shifts/right_oneShift_testbench.v     ;
+; modules/TESTS/sub_module_test/test_shifts/right_sixteenShift_testbench.v ;
+; modules/TESTS/sub_module_test/test_shifts/right_twoShift_testbench.v     ;
+; modules/control/control_unit.v                                           ;
+; modules/control/main_control_unit.v                                      ;
+; modules/memories/memaccess.v                                             ;
+; modules/memories/pci.v                                                   ;
+; modules/memories/register.v                                              ;
+; modules/mips32_single_cycle.v                                            ;
+; modules/sub_modules/add/adder.v                                          ;
+; modules/sub_modules/add/full_adder.v                                     ;
+; modules/sub_modules/extend/extend_XVI.v                                  ;
+; modules/sub_modules/extend/extend_XXVII.v                                ;
+; modules/sub_modules/extend/extend_XXXII.v                                ;
+; modules/sub_modules/mips32/ALU.v                                         ;
+; modules/sub_modules/mips32/alu_result_selecter.v                         ;
+; modules/sub_modules/mips32/mips32.v                                      ;
+; modules/sub_modules/muxes/muxII.v                                        ;
+; modules/sub_modules/muxes/muxIV.v                                        ;
+; modules/sub_modules/muxes/muxLXIV_XXXII.v                                ;
+; modules/sub_modules/muxes/muxVIII.v                                      ;
+; modules/sub_modules/notxxxii.v                                           ;
+; modules/sub_modules/reverse.v                                            ;
+; modules/sub_modules/selecters/selecterXXXI.v                             ;
+; modules/sub_modules/shifts/right_eight_shift.v                           ;
+; modules/sub_modules/shifts/right_four_shift.v                            ;
+; modules/sub_modules/shifts/right_one_shift.v                             ;
+; modules/sub_modules/shifts/right_shift.v                                 ;
+; modules/sub_modules/shifts/right_sixteen_shift.v                         ;
+; modules/sub_modules/shifts/right_two_shift.v                             ;
+; modules/sub_modules/xorxxxii.v                                           ;
++--------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
